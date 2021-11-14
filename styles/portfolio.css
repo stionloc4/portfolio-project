@@ -16,3 +16,7 @@ h1 {
 h6 {
   font-family: "Questrial", sans-serif;
 }
+
+nav {
+  margin-bottom: 25px;
+}
