@@ -7,19 +7,41 @@ nav {
   background: #ffff;
 }
 
+h2 {
+  font-family: var(--serif-font);
+}
+
+.project-preface {
+  font-family: var(--body-font);
+  padding: 10px;
+  outline: 1.5px solid black;
+  width: 400px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+:root {
+  --main-color: #dc886b;
+  --serif-font: "DM Serif Display", serif;
+  --body-font: "Questrial", sans-serif;
+}
+
 .hero h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: var(--serif-font);
   font-size: 120px;
 }
 
 .hero h1:hover {
-  color: #dc886b;
+  color: var(--main-color);
   cursor: pointer;
   transition: 200ms all ease-in-out;
 }
 
 .hero h6 {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--body-font);
 }
 
 .hero nav {
@@ -38,6 +60,10 @@ nav {
   }
   .navbar-brand {
     font-size: 17px;
+  }
+  .project-preface {
+    font-size: 10px;
+    width: 250px;
   }
 }
 
@@ -71,9 +97,24 @@ nav {
     rgba(255, 221, 136, 0.28) 49%
   );
   padding: 160px 20px;
+  margin: 0 auto;
 }
 
 .contact-button {
   margin-top: 20px;
   padding: 11px;
+}
+
+.project-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.project-title {
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.project-description {
+  margin-bottom: 30px;
 }
