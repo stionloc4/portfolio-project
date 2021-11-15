@@ -118,3 +118,8 @@ h2 {
 .project-description {
   margin-bottom: 30px;
 }
+
+.navbar-nav {
+  position: relative;
+  left: 20px;
+}
