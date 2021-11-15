@@ -11,6 +11,11 @@ h2 {
   font-family: var(--serif-font);
 }
 
+img {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .project-preface {
   font-family: var(--body-font);
   padding: 10px;
@@ -64,6 +69,12 @@ h2 {
   .project-preface {
     font-size: 10px;
     width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-text {
+    margin: 0 auto;
   }
 }
 
