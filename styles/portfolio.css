@@ -1,40 +1,39 @@
 body {
   text-align: center;
-  padding: 25px;
+  color: black;
 }
 
-h4 {
-  font-family: "Questrial", sans-serif;
+nav {
+  background: #ffff;
 }
 
-h1 {
+.hero h1 {
   font-family: "DM Serif Display", serif;
   font-size: 120px;
-  padding: 20px 50px;
 }
 
-h1:hover {
+.hero h1:hover {
   color: #dc886b;
   cursor: pointer;
   transition: 200ms all ease-in-out;
 }
 
-h6 {
+.hero h6 {
   font-family: "Questrial", sans-serif;
 }
 
-nav {
+.hero nav {
   margin-bottom: 60px;
 }
 
 @media (max-width: 576px) {
-  h1 {
+  .hero h1 {
     font-size: 60px;
   }
-  h4 {
+  .hero h4 {
     font-size: 20px;
   }
-  h6 {
+  .hero h6 {
     font-size: 16px;
   }
   .navbar-brand {
@@ -54,4 +53,27 @@ nav {
 .navbar-brand {
   font-family: "DM Serif Display", serif;
   font-weight: bolder;
+  position: relative;
+  left: 20px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero {
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  padding: 160px 20px;
+}
+
+.contact-button {
+  margin-top: 20px;
+  padding: 11px;
 }
