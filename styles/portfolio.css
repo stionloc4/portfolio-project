@@ -70,6 +70,16 @@ img {
     font-size: 10px;
     width: 250px;
   }
+
+  .project-text a {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-description {
+    font-size: 13px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
