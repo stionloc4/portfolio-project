@@ -15,7 +15,7 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-img {
+.selfie {
   border-radius: 10%;
 }
 
@@ -56,9 +56,15 @@ img {
   margin-bottom: 60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   img {
     width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-greeting {
+    font-size: 70px;
   }
 }
 
@@ -88,6 +94,16 @@ img {
   .project-description {
     font-size: 13px;
     text-align: center;
+  }
+
+  .about-text {
+    font-size: 10px;
+  }
+
+  .about-text-section {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
   }
 }
 
@@ -161,7 +177,7 @@ img {
 
 .about-greeting {
   margin-top: 60px;
-  font-size: 70px;
+
   font-family: var(--serif-font);
   text-align: center;
 }
