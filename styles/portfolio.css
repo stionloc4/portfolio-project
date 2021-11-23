@@ -15,6 +15,9 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+img {
+  border-radius: 10%;
+}
 
 .project-preface {
   font-family: var(--body-font);
@@ -51,6 +54,12 @@ img {
 
 .hero nav {
   margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -143,4 +152,41 @@ img {
 .navbar-nav {
   position: relative;
   left: 20px;
+}
+
+.about-section {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about-greeting {
+  margin-top: 60px;
+  font-size: 70px;
+  font-family: var(--serif-font);
+  text-align: center;
+}
+
+.about-greeting:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 200ms all ease-in-out;
+}
+
+.about-name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.name {
+  color: var(--main-color);
+  font-weight: 100;
+  font-family: var(--serif-font);
+}
+
+.about-text {
+  font-family: var(--body-font);
+  text-align: center;
 }
