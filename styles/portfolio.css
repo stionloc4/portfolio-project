@@ -231,3 +231,15 @@ h4 {
 .project-wrap {
   padding: 30px;
 }
+
+.social-media-wrap {
+  padding: 20px;
+}
+
+.social-media {
+  font-family: var(--serif-font);
+}
+
+.btn {
+  font-size: 15px;
+}
