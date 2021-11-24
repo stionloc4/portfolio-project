@@ -15,8 +15,14 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+h4 {
+  font-family: var(--serif-font);
+}
+
 .selfie {
   border-radius: 10%;
+  margin-top: 20px;
 }
 
 .project-preface {
@@ -59,6 +65,9 @@ img {
 @media (min-width: 576px) {
   img {
     width: 500px;
+  }
+  .work-header {
+    font-size: 60px;
   }
 }
 
@@ -205,4 +214,20 @@ img {
 .about-text {
   font-family: var(--body-font);
   text-align: center;
+  padding: 10px;
+}
+
+.work-header {
+  font-family: var(--serif-font);
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.work-description {
+  font-family: var(--body-font);
+}
+
+.project-wrap {
+  padding: 30px;
 }
