@@ -47,7 +47,7 @@ footer .work-inquiry-button {
 
 footer {
   font-family: var(--body-font);
-  margin-bottom: 65px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
@@ -69,6 +69,20 @@ footer .email-link:hover {
 
 footer .social-links {
   margin-top: 15px;
+}
+
+.code-credits {
+  font-family: var(--body-font);
+}
+
+.gitHub-code {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.gitHub-code:hover {
+  color: grey;
+  transition: 200ms all ease-in-out;
 }
 
 .fab {
