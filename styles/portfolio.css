@@ -20,6 +20,67 @@ h4 {
   font-family: var(--serif-font);
 }
 
+h5 {
+  text-align: left;
+}
+
+h6 {
+  text-align: center;
+}
+
+footer .contact-box {
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  padding: 30px 60px;
+  max-width: 900px;
+  position: relative;
+  top: 15px;
+}
+
+footer .work-inquiry-button {
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  font-family: var(--body-font);
+  margin-bottom: 65px;
+  margin-top: 20px;
+}
+
+footer .work-inquiry {
+  font-family: var(--serif-font);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+footer .email-link:hover {
+  transition: 200ms all ease-in-out;
+  color: var(--main-color);
+}
+
+footer .social-links {
+  margin-top: 15px;
+}
+
+.fab {
+  margin: 10px;
+  color: black;
+}
+
+.fab:hover {
+  transition: 200ms all ease-in-out;
+  color: var(--main-color);
+}
+
 .selfie {
   border-radius: 10%;
   margin-top: 20px;
@@ -238,6 +299,7 @@ h4 {
 
 .social-media {
   font-family: var(--serif-font);
+  margin-bottom: 10px;
 }
 
 .btn {
